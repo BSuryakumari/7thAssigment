@@ -47,7 +47,7 @@ class App extends Component {
   activeTabItem = item => {
     this.setState({activeTab: item})
   }
-  
+
   render() {
     const {isDarkTheme, savedVideos, activeTab} = this.state
     console.log(isDarkTheme)
